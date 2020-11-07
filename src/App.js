@@ -1,11 +1,18 @@
 import React from "react";
-import "./App.css";
+import "./index.css";
+import Reviews from "./reviews";
 
 function App() {
   return (
-    <div className="App">
-      <h1>reviews</h1>
-    </div>
+    <main>
+      <section className="container">
+        <div className="title">
+          <h2>our reviews</h2>
+          <div className="underline"></div>
+        </div>
+        <Reviews />
+      </section>
+    </main>
   );
 }
 
